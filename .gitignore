@@ -1,0 +1,6 @@
+__pycache__/
+*.db
+.ipynb_checkpoints/
+*.laccdb
+.DS_Store
+Thumbs.db

@@ -1,0 +1,232 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.3">
+  <diagram name="Страница — 1" id="O30dP0JbiJ9Ir8WUOTlR">
+    <mxGraphModel dx="2314" dy="2309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="o8sC5GaLtU6hTL6lJS_F-2" target="o8sC5GaLtU6hTL6lJS_F-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-2" value="Клиент (предприятие)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="154" y="50" width="26" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" parent="1" source="o8sC5GaLtU6hTL6lJS_F-5" target="o8sC5GaLtU6hTL6lJS_F-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" parent="1" source="o8sC5GaLtU6hTL6lJS_F-5" target="o8sC5GaLtU6hTL6lJS_F-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="o8sC5GaLtU6hTL6lJS_F-5" target="o8sC5GaLtU6hTL6lJS_F-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-5" value="Управление инвестициями" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="294" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-6" value="Альтернативные потоки" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="324" y="516" width="206" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-7" value="E1:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Если клиент не предоставляет все необходимые данные, система отменяет процесс регистрации инвестиций.&amp;nbsp;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="o8sC5GaLtU6hTL6lJS_F-6" vertex="1">
+          <mxGeometry y="26" width="206" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-8" value="E2: Если клиент не утверждает выбранные бумаги, процесс отменяется или предлагается другой вариант." style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="o8sC5GaLtU6hTL6lJS_F-6" vertex="1">
+          <mxGeometry y="100" width="206" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-9" value="E3: Если данные клиента неполные, система запрашивает дополнительные сведения.&lt;div&gt;E4: Если система обнаруживает риски, уведомляет аналитический центр для корректировки стратегии.&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="o8sC5GaLtU6hTL6lJS_F-6" vertex="1">
+          <mxGeometry y="180" width="206" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-10" value="Подпотоки" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="120" y="516" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-11" value="S1:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Подписание документов по передаче средств на управление&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="o8sC5GaLtU6hTL6lJS_F-10" vertex="1">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-12" value="Управление инвестициями" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="110" y="220" width="426" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;html=1;" parent="o8sC5GaLtU6hTL6lJS_F-12" vertex="1">
+          <mxGeometry y="30" width="426" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-14" value="Действия акторов" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;html=1;whiteSpace=wrap;" parent="o8sC5GaLtU6hTL6lJS_F-13" vertex="1">
+          <mxGeometry width="216" height="30" as="geometry">
+            <mxRectangle width="216" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-15" value="Отклик системы" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=center;spacingLeft=6;fontStyle=1;overflow=hidden;html=1;whiteSpace=wrap;" parent="o8sC5GaLtU6hTL6lJS_F-13" vertex="1">
+          <mxGeometry x="216" width="210" height="30" as="geometry">
+            <mxRectangle width="210" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-16" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" parent="o8sC5GaLtU6hTL6lJS_F-12" vertex="1">
+          <mxGeometry y="60" width="426" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-17" value="1. Клиент предоставляет средства для управления" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;align=left;" parent="o8sC5GaLtU6hTL6lJS_F-16" vertex="1">
+          <mxGeometry width="216" height="70" as="geometry">
+            <mxRectangle width="216" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-18" value="2. Система запрашивает информацию о сумме и сроке инвестиций" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" parent="o8sC5GaLtU6hTL6lJS_F-16" vertex="1">
+          <mxGeometry x="216" width="210" height="70" as="geometry">
+            <mxRectangle width="210" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" parent="o8sC5GaLtU6hTL6lJS_F-12" vertex="1">
+          <mxGeometry y="130" width="426" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-20" value="3. Клиент подтверждает детали" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;align=left;" parent="o8sC5GaLtU6hTL6lJS_F-19" vertex="1">
+          <mxGeometry width="216" height="60" as="geometry">
+            <mxRectangle width="216" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-21" value="4. Система регистрирует инвестиции клиента" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" parent="o8sC5GaLtU6hTL6lJS_F-19" vertex="1">
+          <mxGeometry x="216" width="210" height="60" as="geometry">
+            <mxRectangle width="210" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-22" value="Выбор ценных бумаг" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="367" y="-120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-23" value="Анализ данных клиента" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="204" y="-120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-24" value="5. Аналитический центр управляет средствами клиента S1" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=1;bottom=1;right=1;editable=1;overflow=hidden;html=1;whiteSpace=wrap;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="410" width="216" height="70" as="geometry">
+            <mxRectangle width="216" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-25" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;6. Система обновляет данные и генерирует отчет&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h4&gt;&lt;/h4&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=1;bottom=1;right=1;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="326" y="410" width="210" height="70" as="geometry">
+            <mxRectangle width="210" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-26" value="Выбор ценных бумаг" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="650" y="215" width="426" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-27" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;html=1;" parent="o8sC5GaLtU6hTL6lJS_F-26" vertex="1">
+          <mxGeometry y="30" width="426" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-28" value="Действия акторов" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;html=1;whiteSpace=wrap;" parent="o8sC5GaLtU6hTL6lJS_F-27" vertex="1">
+          <mxGeometry width="216" height="30" as="geometry">
+            <mxRectangle width="216" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-29" value="Отклик системы" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=center;spacingLeft=6;fontStyle=1;overflow=hidden;html=1;whiteSpace=wrap;" parent="o8sC5GaLtU6hTL6lJS_F-27" vertex="1">
+          <mxGeometry x="216" width="210" height="30" as="geometry">
+            <mxRectangle width="210" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" parent="o8sC5GaLtU6hTL6lJS_F-26" vertex="1">
+          <mxGeometry y="60" width="426" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-31" value="Аналитический центр проводит исследование рынка ценных бумаг" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;align=left;" parent="o8sC5GaLtU6hTL6lJS_F-30" vertex="1">
+          <mxGeometry width="216" height="70" as="geometry">
+            <mxRectangle width="216" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-32" value="2. Система предоставляет список потенциальных активов" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" parent="o8sC5GaLtU6hTL6lJS_F-30" vertex="1">
+          <mxGeometry x="216" width="210" height="70" as="geometry">
+            <mxRectangle width="210" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-33" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" parent="o8sC5GaLtU6hTL6lJS_F-26" vertex="1">
+          <mxGeometry y="130" width="426" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-34" value="3. Аналитический центр выбирает подходящие бумаги (E1)" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;align=left;" parent="o8sC5GaLtU6hTL6lJS_F-33" vertex="1">
+          <mxGeometry width="216" height="120" as="geometry">
+            <mxRectangle width="216" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-35" value="4. Система подтверждает выбор и регистрирует его в системе" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" parent="o8sC5GaLtU6hTL6lJS_F-33" vertex="1">
+          <mxGeometry x="216" width="210" height="120" as="geometry">
+            <mxRectangle width="210" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-48" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="405" width="426" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-51" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="465" width="426" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-52" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;5. Клиент утверждает выбранные активы (E2)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;align=left;" parent="o8sC5GaLtU6hTL6lJS_F-51" vertex="1">
+          <mxGeometry width="216" height="100" as="geometry">
+            <mxRectangle width="216" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-53" value="6. Система обновляет портфель клиента" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" parent="o8sC5GaLtU6hTL6lJS_F-51" vertex="1">
+          <mxGeometry x="216" width="210" height="100" as="geometry">
+            <mxRectangle width="210" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-55" value="" style="endArrow=none;html=1;rounded=0;entryX=0.508;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="o8sC5GaLtU6hTL6lJS_F-51" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="866" y="565" as="sourcePoint" />
+            <mxPoint x="862.41" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-56" value="Анализ данных клиента" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="650" y="600" width="426" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-57" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;html=1;" parent="o8sC5GaLtU6hTL6lJS_F-56" vertex="1">
+          <mxGeometry y="30" width="426" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-58" value="Действия акторов" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;html=1;whiteSpace=wrap;" parent="o8sC5GaLtU6hTL6lJS_F-57" vertex="1">
+          <mxGeometry width="216" height="30" as="geometry">
+            <mxRectangle width="216" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-59" value="Отклик системы" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=center;spacingLeft=6;fontStyle=1;overflow=hidden;html=1;whiteSpace=wrap;" parent="o8sC5GaLtU6hTL6lJS_F-57" vertex="1">
+          <mxGeometry x="216" width="210" height="30" as="geometry">
+            <mxRectangle width="210" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-60" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" parent="o8sC5GaLtU6hTL6lJS_F-56" vertex="1">
+          <mxGeometry y="60" width="426" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-61" value="1. Клиент предоставляет данные о компании (название, вид собственности, адрес и телефон)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;align=left;" parent="o8sC5GaLtU6hTL6lJS_F-60" vertex="1">
+          <mxGeometry width="216" height="70" as="geometry">
+            <mxRectangle width="216" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-62" value="2. Система сохраняет данные клиента (E3)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" parent="o8sC5GaLtU6hTL6lJS_F-60" vertex="1">
+          <mxGeometry x="216" width="210" height="70" as="geometry">
+            <mxRectangle width="210" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-63" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" parent="o8sC5GaLtU6hTL6lJS_F-56" vertex="1">
+          <mxGeometry y="130" width="426" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-64" value="3. Аналитический центр анализирует данные клиента" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;align=left;" parent="o8sC5GaLtU6hTL6lJS_F-63" vertex="1">
+          <mxGeometry width="216" height="120" as="geometry">
+            <mxRectangle width="216" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-65" value="4. Система предоставляет рекомендации по инвестициям на основе анализа данных (E4)" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" parent="o8sC5GaLtU6hTL6lJS_F-63" vertex="1">
+          <mxGeometry x="216" width="210" height="120" as="geometry">
+            <mxRectangle width="210" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-66" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="850" width="426" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-67" value="6. Клиент подтверждает или отказывается от предложений" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;align=left;" parent="o8sC5GaLtU6hTL6lJS_F-66" vertex="1">
+          <mxGeometry width="216" height="100" as="geometry">
+            <mxRectangle width="216" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-68" value="3. Система уведомляет клиента об успешности обработки подтверждения&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=1;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" parent="o8sC5GaLtU6hTL6lJS_F-66" vertex="1">
+          <mxGeometry x="216" width="210" height="100" as="geometry">
+            <mxRectangle width="210" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-69" value="" style="endArrow=none;html=1;rounded=0;entryX=0.508;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="o8sC5GaLtU6hTL6lJS_F-66" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="866" y="950" as="sourcePoint" />
+            <mxPoint x="862.41" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8sC5GaLtU6hTL6lJS_F-70" value="Аналитический центр" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="40" width="26" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
